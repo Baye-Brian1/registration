@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <div class="main-container">
+      <h1 class="title">Student Registration</h1>
+    <div class="form-box">
+      <div class="file-box">
+        <input type="file" id="file" accept="image/*">
+        <label for="file" class="upload-label" id="icon">
+          <i class="fa-solid fa-user-plus"></i>
+        </label>
+        <img src="" alt="Profile picture" class="profile" id="profile">
+      </div>
+
+      <div class="formed">
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter Your Name" id="name">
+
+        <label>Matricule</label>
+        <input type="text" placeholder="Enter Your Matricule" id="matricule">
+
+        <label>School</label>
+        <input type="text" placeholder="Enter Your School" id="school">
+
+        <label>Department</label>
+        <input type="text" placeholder="Enter Your Department" id="department">
+
+        <label>Date Of Birth</label>
+        <input type="date" id="date">
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter Your Email" id="email">
+      </div>
+    </div>
+    <button type="button" class="main-btn">Generate Info</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
